@@ -38,6 +38,7 @@ Execute the main script:
 After training, the script finds the best hyperparameters and prints:
 - Best F1 score & accuracy
 - Class-wise accuracies
+- Generalisation test scores
 - Final model evaluation on the full dataset in `full_data_path`
 
 
