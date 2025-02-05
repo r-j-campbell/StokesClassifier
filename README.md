@@ -25,8 +25,11 @@ The version of the code provided was used to classify circular polarisation prof
 Update file paths in `MLP_DKIST_train_validate_test.py`:
 
 output_labels_path = "/data/solar1/rjc/MLP/DKIST_production_combined.npy" #(output file) profiles labelled by the MLP
+
 full_data_path = "/data/goose/rjc/MLP/DKIST_4sig_PCA_V_profiles.fits" (input file) profiles from the dataset, which you may have preprocessed to normalise, remove Doppler shifts, remove noise, etc.
+
 model_directory = "/data/solar1/rjc/MLP/DKIST_combined/"
+
 combined_data_path = "/data/goose/rjc/MLP/models/production/sets/DKIST_combined_indices_labels.fits" #(input file) labelled training set
 
 ### 2. **Run**
