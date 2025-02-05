@@ -8,7 +8,7 @@ This repository contains an MLP-based classifier written in Python for Stokes pr
 - Implements a Swish-activated MLP with dropout and Xavier initialization.
 - Performs stratified train-validation-test splits (configued to be 70/15/15 split in this case).
 - Hyperparameter tuning using over multiple parameters in a user-defined hyperparameter space (you should vary this!).
-- Parallelizsd training/validation using `joblib`. Each hyperparameter combination can be trained N times (there is a stochastic element involved, so N should be > 1)
+- Parallelised training/validation using `joblib`. Each hyperparameter combination can be trained N times (there is a stochastic element involved, so N should be > 1)
 - Selects and saves the best model based on F1-score (saving the model based on accuracy instead is also possible, just comment/uncomment the necessary function).
 - Evaluates on the test set to measure generalisation and ultimately classifies the full dataset.
 
